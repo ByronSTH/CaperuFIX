@@ -1036,3 +1036,721 @@ button:focus-visible {
 .menu-toggle.active span:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
 }
+/* =========================================
+   CAPERUFIX - ELECTRICIDAD
+   Estilos exclusivos de esta pagina
+========================================= */
+ 
+/* HERO */
+ 
+.electric-hero {
+    background: var(--color-background);
+    padding: 100px 0 110px;
+    overflow: hidden;
+}
+ 
+.electric-hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
+}
+ 
+.electric-hero-content h1 {
+    font-family: var(--font-heading);
+    font-size: clamp(2.4rem, 4.5vw, 3.7rem);
+    line-height: 1.2;
+    color: var(--color-dark);
+    margin-bottom: 25px;
+}
+ 
+.electric-hero-content h1 span {
+    color: var(--color-primary);
+}
+ 
+.electric-hero-content > p {
+    font-size: 1.05rem;
+    color: var(--color-text-light);
+    margin-bottom: 30px;
+}
+ 
+.electric-hero-benefits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-dark);
+}
+ 
+.electric-hero-image {
+    min-height: 420px;
+    position: relative;
+}
+ 
+.electric-image-placeholder {
+    width: 100%;
+    min-height: 420px;
+    border-radius: var(--border-radius-large);
+    background: linear-gradient(135deg, #474747, #171717);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    font-weight: 600;
+}
+ 
+.electric-hero-badge {
+    position: absolute;
+    bottom: 25px;
+    left: -25px;
+    background: white;
+    padding: 18px 22px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-card);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+ 
+.electric-badge-icon {
+    width: 42px;
+    height: 42px;
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    font-size: 1.4rem;
+}
+ 
+.electric-hero-badge strong {
+    font-size: 0.85rem;
+    color: var(--color-dark);
+}
+ 
+.electric-hero-badge p {
+    font-size: 0.75rem;
+    color: var(--color-text-light);
+}
+ 
+ 
+/* SERVICIOS */
+ 
+.electric-services {
+    background: white;
+}
+ 
+.electric-services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+ 
+.electric-service-card {
+    background: white;
+    border: 1px solid var(--color-gray);
+    border-radius: var(--border-radius-large);
+    overflow: hidden;
+    transition: var(--transition);
+}
+ 
+.electric-service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-hover);
+}
+ 
+.electric-service-image {
+    height: 220px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+}
+ 
+.electric-service-image span {
+    background: white;
+    color: var(--color-dark);
+    padding: 7px 13px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+ 
+.electric-installation {
+    background: linear-gradient(135deg, #C34B42, #582C30);
+}
+ 
+.electric-maintenance {
+    background: linear-gradient(135deg, #777777, #292929);
+}
+ 
+.electric-lighting {
+    background: linear-gradient(135deg, #E4AC58, #A55B37);
+}
+ 
+.electric-service-body {
+    padding: 28px;
+}
+ 
+.electric-service-body h3 {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    color: var(--color-dark);
+    margin-bottom: 13px;
+}
+ 
+.electric-service-body p {
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+ 
+.electric-service-body ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ 
+.electric-service-body li {
+    font-size: 0.85rem;
+}
+ 
+.electric-service-body li::before {
+    content: "✓";
+    color: var(--color-primary);
+    font-weight: 700;
+    margin-right: 10px;
+}
+ 
+ 
+/* NOSOTROS */
+ 
+.electric-about {
+    background: var(--color-background);
+}
+ 
+.electric-about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 65px;
+}
+ 
+.electric-about-content h2 {
+    font-family: var(--font-heading);
+    font-size: clamp(2rem, 4vw, 2.7rem);
+    color: var(--color-dark);
+    line-height: 1.3;
+    margin-bottom: 22px;
+}
+ 
+.electric-about-content > p {
+    color: var(--color-text-light);
+    margin-bottom: 18px;
+}
+ 
+.electric-about-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+}
+ 
+.electric-about-list div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+ 
+.electric-about-list span {
+    width: 30px;
+    height: 30px;
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+}
+ 
+ 
+/* GALERIA */
+ 
+.electric-gallery {
+    background: white;
+}
+ 
+.electric-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+ 
+.electric-gallery-item {
+    min-height: 280px;
+    border-radius: var(--border-radius-large);
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    transition: var(--transition);
+}
+ 
+.electric-gallery-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-card);
+}
+ 
+.electric-gallery-one {
+    background: linear-gradient(135deg, #B56B4A, #402A2A);
+}
+ 
+.electric-gallery-two {
+    background: linear-gradient(135deg, #747474, #292929);
+}
+ 
+.electric-gallery-three {
+    background: linear-gradient(135deg, #C78E63, #694431);
+}
+ 
+.electric-gallery-four {
+    background: linear-gradient(135deg, #7B8B9D, #263444);
+}
+ 
+.electric-gallery-label {
+    width: 100%;
+    padding: 28px;
+    background: linear-gradient(
+        transparent,
+        rgba(0, 0, 0, 0.85)
+    );
+    color: white;
+}
+ 
+.electric-gallery-label h3 {
+    font-family: var(--font-heading);
+    font-size: 1.15rem;
+    margin-bottom: 5px;
+}
+ 
+.electric-gallery-label p {
+    font-size: 0.85rem;
+    color: #EEEEEE;
+}
+ 
+ 
+/* PRECIOS */
+ 
+.electric-prices {
+    background: var(--color-background);
+}
+ 
+.electric-table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--color-gray);
+    background: white;
+    box-shadow: var(--shadow-card);
+}
+ 
+.electric-table {
+    width: 100%;
+    min-width: 620px;
+    border-collapse: collapse;
+    text-align: left;
+}
+ 
+.electric-table thead {
+    background: var(--color-dark);
+    color: white;
+}
+ 
+.electric-table th,
+.electric-table td {
+    padding: 19px 23px;
+}
+ 
+.electric-table th {
+    font-size: 0.85rem;
+}
+ 
+.electric-table td {
+    font-size: 0.88rem;
+    border-bottom: 1px solid var(--color-gray);
+}
+ 
+.electric-table tbody tr:hover {
+    background: var(--color-primary-light);
+}
+ 
+.electric-table tbody tr:last-child td {
+    border-bottom: none;
+}
+ 
+.electric-table td:last-child {
+    color: var(--color-primary);
+    font-weight: 700;
+    white-space: nowrap;
+}
+ 
+.electric-price-note {
+    color: var(--color-text-light);
+    font-size: 0.8rem;
+    margin-top: 15px;
+}
+ 
+ 
+/* PROCESO */
+ 
+.electric-process {
+    background: white;
+}
+ 
+ 
+/* PREGUNTAS FRECUENTES */
+ 
+.electric-faq {
+    background: var(--color-background);
+}
+ 
+.electric-faq-container {
+    max-width: 900px;
+}
+ 
+.electric-faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+ 
+.electric-faq-item {
+    background: white;
+    border: 1px solid var(--color-gray);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+ 
+.electric-faq-question {
+    width: 100%;
+    padding: 22px 25px;
+    border: none;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    text-align: left;
+    font-family: var(--font-heading);
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--color-dark);
+    cursor: pointer;
+}
+ 
+.electric-faq-question span {
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+ 
+.electric-faq-question:hover {
+    background: #FAFAFA;
+}
+ 
+.electric-faq-answer {
+    padding: 0 25px 22px;
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+}
+ 
+.electric-faq-answer[hidden] {
+    display: none;
+}
+ 
+ 
+/* CONTACTO */
+ 
+.electric-contact {
+    background: var(--color-primary-light);
+}
+ 
+.electric-contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 65px;
+}
+ 
+.electric-contact-info h2 {
+    font-family: var(--font-heading);
+    font-size: clamp(2rem, 4vw, 2.7rem);
+    color: var(--color-dark);
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+ 
+.electric-contact-info > p {
+    color: var(--color-text-light);
+    margin-bottom: 35px;
+}
+ 
+.electric-contact-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+ 
+.electric-contact-detail strong {
+    color: var(--color-dark);
+}
+ 
+.electric-contact-detail span {
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+}
+ 
+.electric-form {
+    background: white;
+    border-radius: var(--border-radius-large);
+    padding: 35px;
+    box-shadow: var(--shadow-card);
+}
+ 
+.electric-form h3 {
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    color: var(--color-dark);
+    margin-bottom: 25px;
+}
+ 
+.electric-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+ 
+.electric-form-group label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-dark);
+}
+ 
+.electric-form-group input,
+.electric-form-group select,
+.electric-form-group textarea {
+    width: 100%;
+    padding: 13px 15px;
+    border: 1px solid #D5D5D5;
+    border-radius: 8px;
+    background: white;
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+ 
+.electric-form-group textarea {
+    resize: vertical;
+}
+ 
+.electric-form-group input:focus,
+.electric-form-group select:focus,
+.electric-form-group textarea:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px var(--color-primary-light);
+}
+ 
+.electric-form .btn {
+    width: 100%;
+}
+ 
+.electric-form-result {
+    margin-top: 15px;
+    font-size: 0.85rem;
+    color: var(--color-success);
+}
+ 
+.electric-form-disclaimer {
+    font-size: 0.75rem;
+    color: var(--color-text-light);
+    margin-top: 15px;
+}
+ 
+.electric-request-preview {
+    margin-top: 20px;
+    padding: 18px;
+    border: 1px solid var(--color-gray);
+    border-radius: 10px;
+    background: var(--color-background);
+}
+ 
+.electric-request-preview[hidden] {
+    display: none;
+}
+ 
+.electric-request-preview h4 {
+    font-family: var(--font-heading);
+    margin-bottom: 12px;
+}
+ 
+.electric-request-preview pre {
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    margin-bottom: 15px;
+}
+ 
+ 
+/* RESPONSIVE TABLETS */
+ 
+@media (max-width: 992px) {
+ 
+    .electric-hero-grid,
+    .electric-about-grid,
+    .electric-contact-grid {
+        gap: 35px;
+    }
+ 
+    .electric-services-grid {
+        gap: 18px;
+    }
+ 
+    .electric-service-body {
+        padding: 20px;
+    }
+ 
+}
+ 
+ 
+/* RESPONSIVE CELULARES */
+ 
+@media (max-width: 768px) {
+ 
+    .electric-hero {
+        padding: 70px 0;
+    }
+ 
+    .electric-hero-grid,
+    .electric-about-grid,
+    .electric-contact-grid {
+        grid-template-columns: 1fr;
+    }
+ 
+    .electric-hero-content {
+        text-align: center;
+    }
+ 
+    .electric-hero-content .hero-buttons,
+    .electric-hero-benefits {
+        justify-content: center;
+    }
+ 
+    .electric-hero-image {
+        min-height: 330px;
+        margin: 0 15px;
+    }
+ 
+    .electric-hero-image .electric-image-placeholder {
+        min-height: 330px;
+    }
+ 
+    .electric-hero-badge {
+        left: -15px;
+        bottom: -20px;
+    }
+ 
+    .electric-services-grid {
+        grid-template-columns: 1fr;
+        max-width: 480px;
+        margin: 0 auto;
+    }
+ 
+    .electric-about-visual {
+        order: 2;
+    }
+ 
+    .electric-about-content {
+        order: 1;
+    }
+ 
+    .electric-gallery-grid {
+        grid-template-columns: 1fr;
+    }
+ 
+    .electric-gallery-item {
+        min-height: 240px;
+    }
+ 
+    .electric-form {
+        padding: 25px;
+    }
+ 
+}
+ 
+ 
+/* CELULARES PEQUEÑOS */
+ 
+@media (max-width: 480px) {
+ 
+    .electric-hero-content h1 {
+        font-size: 2.1rem;
+    }
+ 
+    .electric-hero-content .hero-buttons {
+        flex-direction: column;
+    }
+ 
+    .electric-hero-content .hero-buttons .btn {
+        width: 100%;
+    }
+ 
+    .electric-hero-image {
+        min-height: 260px;
+    }
+ 
+    .electric-hero-image .electric-image-placeholder {
+        min-height: 260px;
+    }
+ 
+    .electric-service-image {
+        height: 190px;
+    }
+ 
+    .electric-gallery-item {
+        min-height: 210px;
+    }
+ 
+    .electric-faq-question {
+        padding: 18px;
+    }
+ 
+}
+/* Mantener visible el enlace activo de Electricidad */
+ 
+.electric-services .section-heading h2 span,
+.electric-gallery .section-heading h2 span,
+.electric-prices .section-heading h2 span,
+.electric-faq .section-heading h2 span {
+    color: var(--color-primary);
+}
+ 
+/* Evitar animaciones ocultas si JS no las activa */
+ 
+@media (prefers-reduced-motion: reduce) {
+    .reveal {
+        opacity: 1;
+        transform: none;
+    }
+}
