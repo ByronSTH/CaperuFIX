@@ -1036,612 +1036,710 @@ button:focus-visible {
 .menu-toggle.active span:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
 }
-
-
 /* =========================================
-   17. PAGINA DE CARPINTERIA
-========================================= */
-
-/* HERO */
-
-.carpentry-hero {
-    background-color: var(--color-background);
-    padding: 90px 0 110px;
-    overflow: hidden;
-}
-
-.carpentry-hero-container {
+   CAPERUFIX - ELECTRICIDAD
+   Estilos exclusivos de esta pagina
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 60px;
 }
-
-.carpentry-hero-content h1 {
+ 
+.electric-hero-content h1 {
     font-family: var(--font-heading);
-    font-size: clamp(2.5rem, 5vw, 3.7rem);
+    font-size: clamp(2.4rem, 4.5vw, 3.7rem);
     line-height: 1.2;
     color: var(--color-dark);
     margin-bottom: 25px;
 }
-
-.carpentry-hero-content h1 span {
+ 
+.electric-hero-content h1 span {
     color: var(--color-primary);
 }
-
-.carpentry-hero-content > p {
-    color: var(--color-text-light);
+ 
+.electric-hero-content > p {
     font-size: 1.05rem;
+    color: var(--color-text-light);
     margin-bottom: 30px;
-    max-width: 520px;
 }
-
-.carpentry-hero-visual {
-    position: relative;
+ 
+.electric-hero-benefits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-dark);
+}
+ 
+.electric-hero-image {
     min-height: 420px;
+    position: relative;
 }
-
-.carpentry-main-image {
+ 
+.electric-image-placeholder {
+    width: 100%;
     min-height: 420px;
     border-radius: var(--border-radius-large);
-    background: linear-gradient(135deg, #A9825D, #493324);
+    background: linear-gradient(135deg, #474747, #171717);
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    font-weight: 600;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
+    font-weight: 600;
 }
-
-.carpentry-floating-card {
+ 
+.electric-hero-badge {
     position: absolute;
     bottom: 25px;
-    left: -30px;
-    background-color: var(--color-white);
-    box-shadow: var(--shadow-card);
-    padding: 18px;
+    left: -25px;
+    background: white;
+    padding: 18px 22px;
     border-radius: var(--border-radius);
+    box-shadow: var(--shadow-card);
     display: flex;
     align-items: center;
     gap: 12px;
 }
-
-.floating-icon {
-    background-color: var(--color-primary-light);
-    color: var(--color-primary);
+ 
+.electric-badge-icon {
     width: 42px;
     height: 42px;
+    background: var(--color-primary-light);
+    color: var(--color-primary);
+    display: grid;
+    place-items: center;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
-
-.carpentry-floating-card strong {
+ 
+.electric-hero-badge strong {
     font-size: 0.85rem;
+    color: var(--color-dark);
 }
-
-.carpentry-floating-card p {
-    color: var(--color-text-light);
+ 
+.electric-hero-badge p {
     font-size: 0.75rem;
+    color: var(--color-text-light);
 }
-
-
+ 
+ 
 /* SERVICIOS */
-
-.carpentry-services {
-    background-color: var(--color-white);
+ 
+.electric-services {
+    background: white;
 }
-
-.carpentry-services-grid {
+ 
+.electric-services-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+    gap: 28px;
 }
-
-.carpentry-service-card {
+ 
+.electric-service-card {
+    background: white;
     border: 1px solid var(--color-gray);
     border-radius: var(--border-radius-large);
     overflow: hidden;
     transition: var(--transition);
 }
-
-.carpentry-service-card:hover {
+ 
+.electric-service-card:hover {
     transform: translateY(-8px);
     box-shadow: var(--shadow-hover);
 }
-
-.carpentry-service-image {
-    height: 210px;
+ 
+.electric-service-image {
+    height: 220px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 18px;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
 }
-
-.carpentry-service-image span {
-    background-color: white;
-    padding: 7px 12px;
+ 
+.electric-service-image span {
+    background: white;
+    color: var(--color-dark);
+    padding: 7px 13px;
     border-radius: 8px;
     font-weight: 700;
 }
-
-.furniture-image {
-    background: linear-gradient(135deg, #C6A27C, #795638);
+ 
+.electric-installation {
+    background: linear-gradient(135deg, #C34B42, #582C30);
 }
-
-.installation-image {
-    background: linear-gradient(135deg, #B8A28A, #625044);
+ 
+.electric-maintenance {
+    background: linear-gradient(135deg, #777777, #292929);
 }
-
-.repair-image {
-    background: linear-gradient(135deg, #D0B38D, #86603D);
+ 
+.electric-lighting {
+    background: linear-gradient(135deg, #E4AC58, #A55B37);
 }
-
-.carpentry-service-content {
-    padding: 27px;
+ 
+.electric-service-body {
+    padding: 28px;
 }
-
-.carpentry-service-content h3 {
+ 
+.electric-service-body h3 {
     font-family: var(--font-heading);
     font-size: 1.2rem;
     color: var(--color-dark);
-    margin-bottom: 12px;
+    margin-bottom: 13px;
 }
-
-.carpentry-service-content p {
-    font-size: 0.88rem;
+ 
+.electric-service-body p {
     color: var(--color-text-light);
-    margin-bottom: 18px;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
 }
-
-.carpentry-service-content ul {
+ 
+.electric-service-body ul {
     display: flex;
     flex-direction: column;
-    gap: 9px;
+    gap: 10px;
 }
-
-.carpentry-service-content li {
+ 
+.electric-service-body li {
     font-size: 0.85rem;
-    color: var(--color-text);
 }
-
-.carpentry-service-content li::before {
+ 
+.electric-service-body li::before {
     content: "✓";
     color: var(--color-primary);
     font-weight: 700;
-    margin-right: 9px;
+    margin-right: 10px;
 }
-
-
-/* GALERIA */
-
-.carpentry-gallery {
-    background-color: var(--color-background);
+ 
+ 
+/* NOSOTROS */
+ 
+.electric-about {
+    background: var(--color-background);
 }
-
-.carpentry-gallery-grid {
+ 
+.electric-about-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 22px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 65px;
 }
-
-.gallery-item {
-    min-height: 260px;
-    position: relative;
-    display: flex;
-    align-items: flex-end;
-    overflow: hidden;
-    border-radius: var(--border-radius-large);
-    background: linear-gradient(135deg, #A9825D, #493324);
-    transition: var(--transition);
-}
-
-.gallery-item:hover {
-    transform: translateY(-5px);
-}
-
-.gallery-kitchen {
-    background: linear-gradient(135deg, #C3A47F, #76543A);
-}
-
-.gallery-wardrobe {
-    background: linear-gradient(135deg, #B7A18C, #5E493A);
-}
-
-.gallery-doors {
-    background: linear-gradient(135deg, #A67C52, #4E3425);
-}
-
-.gallery-furniture {
-    background: linear-gradient(135deg, #D0B38D, #86603D);
-}
-
-.gallery-label {
-    width: 100%;
-    padding: 25px;
-    color: white;
-    background: linear-gradient(
-        transparent,
-        rgba(0, 0, 0, 0.8)
-    );
-}
-
-.gallery-label h3 {
+ 
+.electric-about-content h2 {
     font-family: var(--font-heading);
-    font-size: 1.1rem;
-    margin-bottom: 5px;
+    font-size: clamp(2rem, 4vw, 2.7rem);
+    color: var(--color-dark);
+    line-height: 1.3;
+    margin-bottom: 22px;
 }
-
-.gallery-label p {
-    font-size: 0.82rem;
-    color: #EEEEEE;
-}
-
-
-/* TABLA DE PRECIOS */
-
-.carpentry-prices {
-    background-color: var(--color-white);
-}
-
-.carpentry-table-container {
-    width: 100%;
-    overflow-x: auto;
-    border: 1px solid var(--color-gray);
-    border-radius: var(--border-radius);
-    box-shadow: var(--shadow-card);
-}
-
-.carpentry-table {
-    width: 100%;
-    min-width: 600px;
-    border-collapse: collapse;
-    text-align: left;
-}
-
-.carpentry-table thead {
-    background-color: var(--color-dark);
-    color: var(--color-white);
-}
-
-.carpentry-table th,
-.carpentry-table td {
-    padding: 18px 22px;
-}
-
-.carpentry-table th {
-    font-size: 0.85rem;
-    font-weight: 600;
-}
-
-.carpentry-table td {
-    font-size: 0.88rem;
-    border-bottom: 1px solid var(--color-gray);
-}
-
-.carpentry-table tbody tr {
-    transition: var(--transition);
-}
-
-.carpentry-table tbody tr:hover {
-    background-color: var(--color-primary-light);
-}
-
-.carpentry-table tbody tr:last-child td {
-    border-bottom: none;
-}
-
-.carpentry-table td:last-child {
-    color: var(--color-primary);
-    font-weight: 700;
-    white-space: nowrap;
-}
-
-.table-note {
-    padding: 15px;
+ 
+.electric-about-content > p {
     color: var(--color-text-light);
-    font-size: 0.8rem;
+    margin-bottom: 18px;
 }
-
-
-/* MATERIALES */
-
-.carpentry-materials {
-    background-color: var(--color-background);
+ 
+.electric-about-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
 }
-
-.materials-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-}
-
-.material-card {
-    background-color: var(--color-white);
-    padding: 32px;
-    border-radius: var(--border-radius-large);
-    border: 1px solid var(--color-gray);
-    transition: var(--transition);
-}
-
-.material-card:hover {
-    transform: translateY(-7px);
-    box-shadow: var(--shadow-card);
-}
-
-.material-icon {
-    width: 55px;
-    height: 55px;
+ 
+.electric-about-list div {
     display: flex;
     align-items: center;
-    justify-content: center;
-    border-radius: 12px;
-    background-color: var(--color-primary-light);
+    gap: 12px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+ 
+.electric-about-list span {
+    width: 30px;
+    height: 30px;
+    background: var(--color-primary-light);
     color: var(--color-primary);
-    font-size: 1.7rem;
-    margin-bottom: 20px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
 }
-
-.material-card h3 {
-    font-family: var(--font-heading);
-    color: var(--color-dark);
-    font-size: 1.1rem;
-    margin-bottom: 12px;
+ 
+ 
+/* GALERIA */
+ 
+.electric-gallery {
+    background: white;
 }
-
-.material-card p {
-    color: var(--color-text-light);
-    font-size: 0.88rem;
+ 
+.electric-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
 }
-
-
-/* PROCESO */
-
-.carpentry-process {
-    background-color: var(--color-white);
-}
-
-
-/* CONTACTO */
-
-.carpentry-contact {
-    background-color: var(--color-primary-light);
-    text-align: center;
-}
-
-.carpentry-contact-content {
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-.carpentry-contact-content h2 {
-    font-family: var(--font-heading);
-    font-size: clamp(2rem, 4vw, 2.8rem);
-    line-height: 1.3;
-    color: var(--color-dark);
-    margin-bottom: 20px;
-}
-
-.carpentry-contact-content p {
-    color: var(--color-text-light);
-    margin-bottom: 30px;
-}
-
-
-/* RESPONSIVE CARPINTERIA */
-
-@media (max-width: 992px) {
-
-    .carpentry-hero-container {
-        gap: 35px;
-    }
-
-    .carpentry-services-grid {
-        gap: 18px;
-    }
-
-    .carpentry-service-content {
-        padding: 20px;
-    }
-
-}
-
-@media (max-width: 768px) {
-
-    .carpentry-hero {
-        padding: 70px 0;
-    }
-
-    .carpentry-hero-container {
-        grid-template-columns: 1fr;
-        gap: 45px;
-    }
-
-    .carpentry-hero-content {
-        text-align: center;
-    }
-
-    .carpentry-hero-content > p {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .carpentry-hero-content .hero-buttons,
-    .carpentry-hero-content .hero-benefits {
-        justify-content: center;
-    }
-
-    .carpentry-hero-visual {
-        margin: 0 15px;
-        min-height: 330px;
-    }
-
-    .carpentry-main-image {
-        min-height: 330px;
-    }
-
-    .carpentry-floating-card {
-        left: -15px;
-        bottom: -20px;
-    }
-
-    .carpentry-services-grid {
-        grid-template-columns: 1fr;
-        max-width: 480px;
-        margin: 0 auto;
-    }
-
-    .carpentry-gallery-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .materials-grid {
-        grid-template-columns: 1fr;
-        max-width: 500px;
-        margin: 0 auto;
-    }
-
-}
-
-@media (max-width: 480px) {
-
-    .carpentry-hero-content h1 {
-        font-size: 2.1rem;
-    }
-
-    .carpentry-hero-content .hero-buttons {
-        flex-direction: column;
-    }
-
-    .carpentry-hero-content .hero-buttons .btn {
-        width: 100%;
-    }
-
-    .carpentry-hero-visual {
-        min-height: 260px;
-    }
-
-    .carpentry-main-image {
-        min-height: 260px;
-    }
-
-    .carpentry-service-image {
-        height: 190px;
-    }
-
-    .gallery-item {
-        min-height: 220px;
-    }
-
-}
-
-/* =========================================
-   IMAGENES REALES - CARPINTERIA
-========================================= */
-
-/* Imagen principal */
-
-.carpentry-main-image {
-    width: 100%;
-    height: 420px;
-    min-height: 420px;
-    object-fit: cover;
-    object-position: center;
-    display: block;
-    border-radius: var(--border-radius-large);
-}
-
-
-/* Imagenes de las tarjetas de servicios */
-
-.carpentry-service-image {
-    position: relative;
-    height: 210px;
-    padding: 0;
-    overflow: hidden;
-    display: block;
-}
-
-.carpentry-service-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    transition: transform 0.4s ease;
-}
-
-.carpentry-service-card:hover .carpentry-service-image img {
-    transform: scale(1.06);
-}
-
-.carpentry-service-image span {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    z-index: 2;
-}
-
-
-/* Galeria de trabajos */
-
-.gallery-item {
-    position: relative;
-    min-height: 260px;
-    overflow: hidden;
+ 
+.electric-gallery-item {
+    min-height: 280px;
     border-radius: var(--border-radius-large);
     display: flex;
     align-items: flex-end;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    transition: var(--transition);
 }
-
-.gallery-item > img {
-    position: absolute;
-    inset: 0;
+ 
+.electric-gallery-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-card);
+}
+ 
+.electric-gallery-one {
+    background: linear-gradient(135deg, #B56B4A, #402A2A);
+}
+ 
+.electric-gallery-two {
+    background: linear-gradient(135deg, #747474, #292929);
+}
+ 
+.electric-gallery-three {
+    background: linear-gradient(135deg, #C78E63, #694431);
+}
+ 
+.electric-gallery-four {
+    background: linear-gradient(135deg, #7B8B9D, #263444);
+}
+ 
+.electric-gallery-label {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-}
-
-.gallery-item:hover > img {
-    transform: scale(1.06);
-}
-
-.gallery-label {
-    position: relative;
-    z-index: 2;
-    width: 100%;
-    padding: 25px;
-    color: white;
+    padding: 28px;
     background: linear-gradient(
         transparent,
         rgba(0, 0, 0, 0.85)
     );
+    color: white;
 }
-
-
-/* Ajustes para celulares */
-
+ 
+.electric-gallery-label h3 {
+    font-family: var(--font-heading);
+    font-size: 1.15rem;
+    margin-bottom: 5px;
+}
+ 
+.electric-gallery-label p {
+    font-size: 0.85rem;
+    color: #EEEEEE;
+}
+ 
+ 
+/* PRECIOS */
+ 
+.electric-prices {
+    background: var(--color-background);
+}
+ 
+.electric-table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--color-gray);
+    background: white;
+    box-shadow: var(--shadow-card);
+}
+ 
+.electric-table {
+    width: 100%;
+    min-width: 620px;
+    border-collapse: collapse;
+    text-align: left;
+}
+ 
+.electric-table thead {
+    background: var(--color-dark);
+    color: white;
+}
+ 
+.electric-table th,
+.electric-table td {
+    padding: 19px 23px;
+}
+ 
+.electric-table th {
+    font-size: 0.85rem;
+}
+ 
+.electric-table td {
+    font-size: 0.88rem;
+    border-bottom: 1px solid var(--color-gray);
+}
+ 
+.electric-table tbody tr:hover {
+    background: var(--color-primary-light);
+}
+ 
+.electric-table tbody tr:last-child td {
+    border-bottom: none;
+}
+ 
+.electric-table td:last-child {
+    color: var(--color-primary);
+    font-weight: 700;
+    white-space: nowrap;
+}
+ 
+.electric-price-note {
+    color: var(--color-text-light);
+    font-size: 0.8rem;
+    margin-top: 15px;
+}
+ 
+ 
+/* PROCESO */
+ 
+.electric-process {
+    background: white;
+}
+ 
+ 
+/* PREGUNTAS FRECUENTES */
+ 
+.electric-faq {
+    background: var(--color-background);
+}
+ 
+.electric-faq-container {
+    max-width: 900px;
+}
+ 
+.electric-faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+ 
+.electric-faq-item {
+    background: white;
+    border: 1px solid var(--color-gray);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+ 
+.electric-faq-question {
+    width: 100%;
+    padding: 22px 25px;
+    border: none;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    text-align: left;
+    font-family: var(--font-heading);
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--color-dark);
+    cursor: pointer;
+}
+ 
+.electric-faq-question span {
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+ 
+.electric-faq-question:hover {
+    background: #FAFAFA;
+}
+ 
+.electric-faq-answer {
+    padding: 0 25px 22px;
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+}
+ 
+.electric-faq-answer[hidden] {
+    display: none;
+}
+ 
+ 
+/* CONTACTO */
+ 
+.electric-contact {
+    background: var(--color-primary-light);
+}
+ 
+.electric-contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 65px;
+}
+ 
+.electric-contact-info h2 {
+    font-family: var(--font-heading);
+    font-size: clamp(2rem, 4vw, 2.7rem);
+    color: var(--color-dark);
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+ 
+.electric-contact-info > p {
+    color: var(--color-text-light);
+    margin-bottom: 35px;
+}
+ 
+.electric-contact-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+ 
+.electric-contact-detail strong {
+    color: var(--color-dark);
+}
+ 
+.electric-contact-detail span {
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+}
+ 
+.electric-form {
+    background: white;
+    border-radius: var(--border-radius-large);
+    padding: 35px;
+    box-shadow: var(--shadow-card);
+}
+ 
+.electric-form h3 {
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    color: var(--color-dark);
+    margin-bottom: 25px;
+}
+ 
+.electric-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+ 
+.electric-form-group label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-dark);
+}
+ 
+.electric-form-group input,
+.electric-form-group select,
+.electric-form-group textarea {
+    width: 100%;
+    padding: 13px 15px;
+    border: 1px solid #D5D5D5;
+    border-radius: 8px;
+    background: white;
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+ 
+.electric-form-group textarea {
+    resize: vertical;
+}
+ 
+.electric-form-group input:focus,
+.electric-form-group select:focus,
+.electric-form-group textarea:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px var(--color-primary-light);
+}
+ 
+.electric-form .btn {
+    width: 100%;
+}
+ 
+.electric-form-result {
+    margin-top: 15px;
+    font-size: 0.85rem;
+    color: var(--color-success);
+}
+ 
+.electric-form-disclaimer {
+    font-size: 0.75rem;
+    color: var(--color-text-light);
+    margin-top: 15px;
+}
+ 
+.electric-request-preview {
+    margin-top: 20px;
+    padding: 18px;
+    border: 1px solid var(--color-gray);
+    border-radius: 10px;
+    background: var(--color-background);
+}
+ 
+.electric-request-preview[hidden] {
+    display: none;
+}
+ 
+.electric-request-preview h4 {
+    font-family: var(--font-heading);
+    margin-bottom: 12px;
+}
+ 
+.electric-request-preview pre {
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    margin-bottom: 15px;
+}
+ 
+ 
+/* RESPONSIVE TABLETS */
+ 
+@media (max-width: 992px) {
+ 
+    .electric-hero-grid,
+    .electric-about-grid,
+    .electric-contact-grid {
+        gap: 35px;
+    }
+ 
+    .electric-services-grid {
+        gap: 18px;
+    }
+ 
+    .electric-service-body {
+        padding: 20px;
+    }
+ 
+}
+ 
+ 
+/* RESPONSIVE CELULARES */
+ 
 @media (max-width: 768px) {
-
-    .carpentry-main-image {
-        height: 330px;
+ 
+    .electric-hero {
+        padding: 70px 0;
+    }
+ 
+    .electric-hero-grid,
+    .electric-about-grid,
+    .electric-contact-grid {
+        grid-template-columns: 1fr;
+    }
+ 
+    .electric-hero-content {
+        text-align: center;
+    }
+ 
+    .electric-hero-content .hero-buttons,
+    .electric-hero-benefits {
+        justify-content: center;
+    }
+ 
+    .electric-hero-image {
+        min-height: 330px;
+        margin: 0 15px;
+    }
+ 
+    .electric-hero-image .electric-image-placeholder {
         min-height: 330px;
     }
-
+ 
+    .electric-hero-badge {
+        left: -15px;
+        bottom: -20px;
+    }
+ 
+    .electric-services-grid {
+        grid-template-columns: 1fr;
+        max-width: 480px;
+        margin: 0 auto;
+    }
+ 
+    .electric-about-visual {
+        order: 2;
+    }
+ 
+    .electric-about-content {
+        order: 1;
+    }
+ 
+    .electric-gallery-grid {
+        grid-template-columns: 1fr;
+    }
+ 
+    .electric-gallery-item {
+        min-height: 240px;
+    }
+ 
+    .electric-form {
+        padding: 25px;
+    }
+ 
 }
-
+ 
+ 
+/* CELULARES PEQUEÑOS */
+ 
 @media (max-width: 480px) {
-
-    .carpentry-main-image {
-        height: 260px;
+ 
+    .electric-hero-content h1 {
+        font-size: 2.1rem;
+    }
+ 
+    .electric-hero-content .hero-buttons {
+        flex-direction: column;
+    }
+ 
+    .electric-hero-content .hero-buttons .btn {
+        width: 100%;
+    }
+ 
+    .electric-hero-image {
         min-height: 260px;
     }
-
-    .carpentry-service-image {
+ 
+    .electric-hero-image .electric-image-placeholder {
+        min-height: 260px;
+    }
+ 
+    .electric-service-image {
         height: 190px;
     }
-
+ 
+    .electric-gallery-item {
+        min-height: 210px;
+    }
+ 
+    .electric-faq-question {
+        padding: 18px;
+    }
+ 
+}
+/* Mantener visible el enlace activo de Electricidad */
+ 
+.electric-services .section-heading h2 span,
+.electric-gallery .section-heading h2 span,
+.electric-prices .section-heading h2 span,
+.electric-faq .section-heading h2 span {
+    color: var(--color-primary);
+}
+ 
+/* Evitar animaciones ocultas si JS no las activa */
+ 
+@media (prefers-reduced-motion: reduce) {
+    .reveal {
+        opacity: 1;
+        transform: none;
+    }
 }
