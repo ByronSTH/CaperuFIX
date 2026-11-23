@@ -1036,3 +1036,612 @@ button:focus-visible {
 .menu-toggle.active span:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
 }
+
+
+/* =========================================
+   17. PAGINA DE CARPINTERIA
+========================================= */
+
+/* HERO */
+
+.carpentry-hero {
+    background-color: var(--color-background);
+    padding: 90px 0 110px;
+    overflow: hidden;
+}
+
+.carpentry-hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
+}
+
+.carpentry-hero-content h1 {
+    font-family: var(--font-heading);
+    font-size: clamp(2.5rem, 5vw, 3.7rem);
+    line-height: 1.2;
+    color: var(--color-dark);
+    margin-bottom: 25px;
+}
+
+.carpentry-hero-content h1 span {
+    color: var(--color-primary);
+}
+
+.carpentry-hero-content > p {
+    color: var(--color-text-light);
+    font-size: 1.05rem;
+    margin-bottom: 30px;
+    max-width: 520px;
+}
+
+.carpentry-hero-visual {
+    position: relative;
+    min-height: 420px;
+}
+
+.carpentry-main-image {
+    min-height: 420px;
+    border-radius: var(--border-radius-large);
+    background: linear-gradient(135deg, #A9825D, #493324);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+}
+
+.carpentry-floating-card {
+    position: absolute;
+    bottom: 25px;
+    left: -30px;
+    background-color: var(--color-white);
+    box-shadow: var(--shadow-card);
+    padding: 18px;
+    border-radius: var(--border-radius);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.floating-icon {
+    background-color: var(--color-primary-light);
+    color: var(--color-primary);
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.carpentry-floating-card strong {
+    font-size: 0.85rem;
+}
+
+.carpentry-floating-card p {
+    color: var(--color-text-light);
+    font-size: 0.75rem;
+}
+
+
+/* SERVICIOS */
+
+.carpentry-services {
+    background-color: var(--color-white);
+}
+
+.carpentry-services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.carpentry-service-card {
+    border: 1px solid var(--color-gray);
+    border-radius: var(--border-radius-large);
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.carpentry-service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-hover);
+}
+
+.carpentry-service-image {
+    height: 210px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 18px;
+}
+
+.carpentry-service-image span {
+    background-color: white;
+    padding: 7px 12px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.furniture-image {
+    background: linear-gradient(135deg, #C6A27C, #795638);
+}
+
+.installation-image {
+    background: linear-gradient(135deg, #B8A28A, #625044);
+}
+
+.repair-image {
+    background: linear-gradient(135deg, #D0B38D, #86603D);
+}
+
+.carpentry-service-content {
+    padding: 27px;
+}
+
+.carpentry-service-content h3 {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    color: var(--color-dark);
+    margin-bottom: 12px;
+}
+
+.carpentry-service-content p {
+    font-size: 0.88rem;
+    color: var(--color-text-light);
+    margin-bottom: 18px;
+}
+
+.carpentry-service-content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.carpentry-service-content li {
+    font-size: 0.85rem;
+    color: var(--color-text);
+}
+
+.carpentry-service-content li::before {
+    content: "✓";
+    color: var(--color-primary);
+    font-weight: 700;
+    margin-right: 9px;
+}
+
+
+/* GALERIA */
+
+.carpentry-gallery {
+    background-color: var(--color-background);
+}
+
+.carpentry-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+
+.gallery-item {
+    min-height: 260px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    border-radius: var(--border-radius-large);
+    background: linear-gradient(135deg, #A9825D, #493324);
+    transition: var(--transition);
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+}
+
+.gallery-kitchen {
+    background: linear-gradient(135deg, #C3A47F, #76543A);
+}
+
+.gallery-wardrobe {
+    background: linear-gradient(135deg, #B7A18C, #5E493A);
+}
+
+.gallery-doors {
+    background: linear-gradient(135deg, #A67C52, #4E3425);
+}
+
+.gallery-furniture {
+    background: linear-gradient(135deg, #D0B38D, #86603D);
+}
+
+.gallery-label {
+    width: 100%;
+    padding: 25px;
+    color: white;
+    background: linear-gradient(
+        transparent,
+        rgba(0, 0, 0, 0.8)
+    );
+}
+
+.gallery-label h3 {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.gallery-label p {
+    font-size: 0.82rem;
+    color: #EEEEEE;
+}
+
+
+/* TABLA DE PRECIOS */
+
+.carpentry-prices {
+    background-color: var(--color-white);
+}
+
+.carpentry-table-container {
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid var(--color-gray);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-card);
+}
+
+.carpentry-table {
+    width: 100%;
+    min-width: 600px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.carpentry-table thead {
+    background-color: var(--color-dark);
+    color: var(--color-white);
+}
+
+.carpentry-table th,
+.carpentry-table td {
+    padding: 18px 22px;
+}
+
+.carpentry-table th {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.carpentry-table td {
+    font-size: 0.88rem;
+    border-bottom: 1px solid var(--color-gray);
+}
+
+.carpentry-table tbody tr {
+    transition: var(--transition);
+}
+
+.carpentry-table tbody tr:hover {
+    background-color: var(--color-primary-light);
+}
+
+.carpentry-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.carpentry-table td:last-child {
+    color: var(--color-primary);
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.table-note {
+    padding: 15px;
+    color: var(--color-text-light);
+    font-size: 0.8rem;
+}
+
+
+/* MATERIALES */
+
+.carpentry-materials {
+    background-color: var(--color-background);
+}
+
+.materials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.material-card {
+    background-color: var(--color-white);
+    padding: 32px;
+    border-radius: var(--border-radius-large);
+    border: 1px solid var(--color-gray);
+    transition: var(--transition);
+}
+
+.material-card:hover {
+    transform: translateY(-7px);
+    box-shadow: var(--shadow-card);
+}
+
+.material-icon {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: var(--color-primary-light);
+    color: var(--color-primary);
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+.material-card h3 {
+    font-family: var(--font-heading);
+    color: var(--color-dark);
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+}
+
+.material-card p {
+    color: var(--color-text-light);
+    font-size: 0.88rem;
+}
+
+
+/* PROCESO */
+
+.carpentry-process {
+    background-color: var(--color-white);
+}
+
+
+/* CONTACTO */
+
+.carpentry-contact {
+    background-color: var(--color-primary-light);
+    text-align: center;
+}
+
+.carpentry-contact-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.carpentry-contact-content h2 {
+    font-family: var(--font-heading);
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    line-height: 1.3;
+    color: var(--color-dark);
+    margin-bottom: 20px;
+}
+
+.carpentry-contact-content p {
+    color: var(--color-text-light);
+    margin-bottom: 30px;
+}
+
+
+/* RESPONSIVE CARPINTERIA */
+
+@media (max-width: 992px) {
+
+    .carpentry-hero-container {
+        gap: 35px;
+    }
+
+    .carpentry-services-grid {
+        gap: 18px;
+    }
+
+    .carpentry-service-content {
+        padding: 20px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .carpentry-hero {
+        padding: 70px 0;
+    }
+
+    .carpentry-hero-container {
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }
+
+    .carpentry-hero-content {
+        text-align: center;
+    }
+
+    .carpentry-hero-content > p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .carpentry-hero-content .hero-buttons,
+    .carpentry-hero-content .hero-benefits {
+        justify-content: center;
+    }
+
+    .carpentry-hero-visual {
+        margin: 0 15px;
+        min-height: 330px;
+    }
+
+    .carpentry-main-image {
+        min-height: 330px;
+    }
+
+    .carpentry-floating-card {
+        left: -15px;
+        bottom: -20px;
+    }
+
+    .carpentry-services-grid {
+        grid-template-columns: 1fr;
+        max-width: 480px;
+        margin: 0 auto;
+    }
+
+    .carpentry-gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .materials-grid {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .carpentry-hero-content h1 {
+        font-size: 2.1rem;
+    }
+
+    .carpentry-hero-content .hero-buttons {
+        flex-direction: column;
+    }
+
+    .carpentry-hero-content .hero-buttons .btn {
+        width: 100%;
+    }
+
+    .carpentry-hero-visual {
+        min-height: 260px;
+    }
+
+    .carpentry-main-image {
+        min-height: 260px;
+    }
+
+    .carpentry-service-image {
+        height: 190px;
+    }
+
+    .gallery-item {
+        min-height: 220px;
+    }
+
+}
+
+/* =========================================
+   IMAGENES REALES - CARPINTERIA
+========================================= */
+
+/* Imagen principal */
+
+.carpentry-main-image {
+    width: 100%;
+    height: 420px;
+    min-height: 420px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border-radius: var(--border-radius-large);
+}
+
+
+/* Imagenes de las tarjetas de servicios */
+
+.carpentry-service-image {
+    position: relative;
+    height: 210px;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+}
+
+.carpentry-service-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.carpentry-service-card:hover .carpentry-service-image img {
+    transform: scale(1.06);
+}
+
+.carpentry-service-image span {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 2;
+}
+
+
+/* Galeria de trabajos */
+
+.gallery-item {
+    position: relative;
+    min-height: 260px;
+    overflow: hidden;
+    border-radius: var(--border-radius-large);
+    display: flex;
+    align-items: flex-end;
+}
+
+.gallery-item > img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.gallery-item:hover > img {
+    transform: scale(1.06);
+}
+
+.gallery-label {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding: 25px;
+    color: white;
+    background: linear-gradient(
+        transparent,
+        rgba(0, 0, 0, 0.85)
+    );
+}
+
+
+/* Ajustes para celulares */
+
+@media (max-width: 768px) {
+
+    .carpentry-main-image {
+        height: 330px;
+        min-height: 330px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .carpentry-main-image {
+        height: 260px;
+        min-height: 260px;
+    }
+
+    .carpentry-service-image {
+        height: 190px;
+    }
+
+}
