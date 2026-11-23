@@ -1039,17 +1039,6 @@ button:focus-visible {
 /* =========================================
    CAPERUFIX - ELECTRICIDAD
    Estilos exclusivos de esta pagina
-========================================= */
- 
-/* HERO */
- 
-.electric-hero {
-    background: var(--color-background);
-    padding: 100px 0 110px;
-    overflow: hidden;
-}
- 
-.electric-hero-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
