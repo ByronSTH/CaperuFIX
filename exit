@@ -1,0 +1,63 @@
+[33mcommit 639e69e91b9ec871758d93af5a248a43016145c3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: bdc69f1 0b8f130
+Author: Leonardo Méndez Cruz <leomc7397@gmail.com>
+Date:   Mon Nov 23 14:09:59 2026 -0400
+
+    Merge pull request #2 from ByronSTH/feat/carpinteria
+    
+    Feat/carpinteria
+
+[33mcommit bdc69f1673ddf3d6a600d3da590cfaf7a2e11b8c[m
+Merge: 727db21 edb0b3d
+Author: STH <diegobyron102030@gmail.com>
+Date:   Mon Nov 23 14:06:26 2026 -0400
+
+    Merge pull request #1 from ByronSTH/feat/electricidad
+    
+    Feat/electricidad
+
+[33mcommit edb0b3de3343aa2b18c142877f4915327bda6d30[m
+Author: Diego Alexander Byron Gomez <diegobyron102030@gmail.com>
+Date:   Mon Nov 23 13:46:58 2026 -0400
+
+    Pagina electricidad con imagenes completada
+
+[33mcommit 0b8f130d54ef63390dfef11ec775d88df98809d6[m[33m ([m[1;31morigin/feat/carpinteria[m[33m)[m
+Author: Leonardo Méndez Cruz <leomc7397@gmail.com>
+Date:   Mon Nov 23 12:41:43 2026 -0400
+
+    feat: agregar imagenes a pagina de carpinteria
+
+[33mcommit 414e08156f70550b5802281527967a38bed888c7[m
+Author: Leonardo Méndez Cruz <leomc7397@gmail.com>
+Date:   Mon Nov 23 12:22:45 2026 -0400
+
+    feat: desarrollar pagina de carpinteria
+
+[33mcommit 8a0ae2fcf66f5a4c6d13833acb2c6a4016c26ea4[m
+Author: Diego Alexander Byron Gomez <diegobyron102030@gmail.com>
+Date:   Mon Nov 23 12:08:46 2026 -0400
+
+    Logo CAPERUFIX
+
+[33mcommit 727db219fc05cc870939ad4fb1595e211e731065[m
+Author: STH <diegobyron102030@gmail.com>
+Date:   Mon Nov 23 12:08:20 2026 -0400
+
+    Delete caperufix (1).png
+    
+    borrado del lgoo
+
+[33mcommit 9e1e4622d50f10eeb8367ea419df5bf4bc1d2229[m
+Author: STH <diegobyron102030@gmail.com>
+Date:   Mon Nov 23 12:05:57 2026 -0400
+
+    Add files via upload
+    
+    Creacion de logo CAPERUFIX
+
+[33mcommit 24d4e997d8e163486eaf086a9e971bf3b2807b60[m
+Author: Diego Alexander Byron Gomez <diegobyron102030@gmail.com>
+Date:   Mon Nov 23 11:58:54 2026 -0400
+
+    Pagina Principal y 3 servicios basicos
