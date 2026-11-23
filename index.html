@@ -1,0 +1,474 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="CaperuFix: servicios profesionales de carpintería, electricidad y plomería para tu hogar.">
+
+    <title>CaperuFix | Reparaciones del hogar</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- ================================= -->
+    <!-- NAVEGACION PRINCIPAL -->
+    <!-- ================================= -->
+
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">CF</span>
+                <span>Caperu<span class="logo-highlight">Fix</span></span>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                aria-label="Abrir menú" aria-expanded="false"
+                aria-controls="nav-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#contacto" class="nav-link nav-contact">Contáctanos</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- ================================= -->
+        <!-- SECCION PRINCIPAL / HERO -->
+        <!-- ================================= -->
+
+        <section class="hero" id="inicio">
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <span class="section-tag">
+                        SOLUCIONES PARA TU HOGAR
+                    </span>
+
+                    <h1>
+                        Tu hogar merece
+                        <span>el mejor cuidado.</span>
+                    </h1>
+
+                    <p>
+                        Nos encargamos de las reparaciones y el
+                        mantenimiento de tu hogar con servicios
+                        profesionales de carpintería, electricidad
+                        y plomería.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#servicios" class="btn btn-primary">
+                            Conoce nuestros servicios
+                        </a>
+
+                        <a href="#contacto" class="btn btn-secondary">
+                            Contáctanos
+                        </a>
+
+                    </div>
+
+                    <div class="hero-benefits">
+                        <span>✓ Atención profesional</span>
+                        <span>✓ Soluciones para tu hogar</span>
+                    </div>
+
+                </div>
+
+                <div class="hero-image">
+
+                    <!-- Imagen principal pendiente de agregar -->
+
+                    <div class="image-placeholder">
+                        <span>Imagen principal de CaperuFix</span>
+                    </div>
+
+                    <div class="hero-card">
+                        <span class="hero-card-icon">✓</span>
+                        <div>
+                            <strong>Tu hogar en buenas manos</strong>
+                            <p>Estamos aquí para ayudarte</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================= -->
+        <!-- SECCION DE SERVICIOS -->
+        <!-- ================================= -->
+
+        <section class="services section-padding" id="servicios">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-tag">
+                        LO QUE HACEMOS
+                    </span>
+
+                    <h2>
+                        Nuestros <span>servicios</span>
+                    </h2>
+
+                    <p>
+                        Contamos con especialistas para solucionar
+                        diferentes necesidades de mantenimiento
+                        y reparación en tu hogar.
+                    </p>
+
+                </div>
+
+
+                <div class="services-grid">
+
+                    <!-- CARPINTERIA -->
+
+                    <article class="service-card">
+
+                        <div class="service-image service-image-wood">
+                            <span class="service-number">01</span>
+                        </div>
+
+                        <div class="service-content">
+
+                            <span class="service-category">
+                                TRABAJO EN MADERA
+                            </span>
+
+                            <h3>Carpintería</h3>
+
+                            <p>
+                                Fabricación, instalación y reparación
+                                de muebles, puertas, ventanas y
+                                estructuras de madera.
+                            </p>
+
+                            <a href="carpinteria/index.html"
+                                class="service-link">
+                                Conocer servicio →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- ELECTRICIDAD -->
+
+                    <article class="service-card">
+
+                        <div class="service-image service-image-electric">
+                            <span class="service-number">02</span>
+                        </div>
+
+                        <div class="service-content">
+
+                            <span class="service-category">
+                                INSTALACIONES ELÉCTRICAS
+                            </span>
+
+                            <h3>Electricidad</h3>
+
+                            <p>
+                                Instalaciones, mantenimiento y
+                                reparación de sistemas eléctricos
+                                para tu hogar.
+                            </p>
+
+                            <a href="electricidad/index.html"
+                                class="service-link">
+                                Conocer servicio →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PLOMERIA -->
+
+                    <article class="service-card">
+
+                        <div class="service-image service-image-plumbing">
+                            <span class="service-number">03</span>
+                        </div>
+
+                        <div class="service-content">
+
+                            <span class="service-category">
+                                INSTALACIONES DE AGUA
+                            </span>
+
+                            <h3>Plomería</h3>
+
+                            <p>
+                                Reparación de fugas, mantenimiento
+                                de tuberías e instalación de
+                                grifos y sanitarios.
+                            </p>
+
+                            <a href="plomeria/index.html"
+                                class="service-link">
+                                Conocer servicio →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================= -->
+        <!-- SECCION NOSOTROS -->
+        <!-- ================================= -->
+
+        <section class="about section-padding" id="nosotros">
+
+            <div class="container about-container">
+
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <span>Imagen de nuestro equipo</span>
+                    </div>
+                </div>
+
+                <div class="about-content">
+
+                    <span class="section-tag">
+                        SOBRE CAPERUFIX
+                    </span>
+
+                    <h2>
+                        Cuidamos tu hogar
+                        como si fuera el nuestro.
+                    </h2>
+
+                    <p>
+                        Somos una empresa dedicada a brindar
+                        soluciones para el mantenimiento y la
+                        reparación del hogar. Nuestro objetivo
+                        es facilitar tu día a día mediante
+                        servicios confiables y profesionales.
+                    </p>
+
+                    <div class="about-points">
+
+                        <div class="about-point">
+                            <span>✓</span>
+                            <p>Compromiso con cada trabajo.</p>
+                        </div>
+
+                        <div class="about-point">
+                            <span>✓</span>
+                            <p>Atención cercana y personalizada.</p>
+                        </div>
+
+                        <div class="about-point">
+                            <span>✓</span>
+                            <p>Soluciones para diferentes necesidades.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================= -->
+        <!-- COMO TRABAJAMOS -->
+        <!-- ================================= -->
+
+        <section class="process section-padding">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-tag">
+                        SIMPLE Y SENCILLO
+                    </span>
+
+                    <h2>
+                        ¿Cómo <span>trabajamos?</span>
+                    </h2>
+
+                    <p>
+                        Obtener ayuda para tu hogar nunca fue tan fácil.
+                    </p>
+
+                </div>
+
+                <div class="process-grid">
+
+                    <article class="process-card">
+                        <span class="process-number">01</span>
+                        <h3>Elige un servicio</h3>
+                        <p>
+                            Selecciona el tipo de reparación
+                            o mantenimiento que necesitas.
+                        </p>
+                    </article>
+
+                    <article class="process-card">
+                        <span class="process-number">02</span>
+                        <h3>Contáctanos</h3>
+                        <p>
+                            Comunícate con nosotros para
+                            explicar qué necesitas.
+                        </p>
+                    </article>
+
+                    <article class="process-card">
+                        <span class="process-number">03</span>
+                        <h3>Obtén una solución</h3>
+                        <p>
+                            Coordinamos la atención para
+                            solucionar tu problema.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================= -->
+        <!-- CONTACTO -->
+        <!-- ================================= -->
+
+        <section class="contact section-padding" id="contacto">
+
+            <div class="container">
+
+                <div class="contact-content">
+
+                    <span class="section-tag">
+                        ESTAMOS PARA AYUDARTE
+                    </span>
+
+                    <h2>
+                        ¿Necesitas ayuda
+                        con tu hogar?
+                    </h2>
+
+                    <p>
+                        Conoce nuestros servicios y encuentra
+                        la solución que estás buscando.
+                    </p>
+
+                    <a href="#servicios" class="btn btn-light">
+                        Explorar servicios →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================================= -->
+    <!-- PIE DE PAGINA -->
+    <!-- ================================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="logo footer-logo">
+                    <span class="logo-icon">CF</span>
+                    <span>Caperu<span class="logo-highlight">Fix</span></span>
+                </a>
+
+                <p>
+                    Soluciones profesionales para el cuidado
+                    y mantenimiento de tu hogar.
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <h3>Navegación</h3>
+
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#contacto">Contacto</a>
+
+            </div>
+
+            <div class="footer-links">
+
+                <h3>Servicios</h3>
+
+                <a href="carpinteria/index.html">Carpintería</a>
+                <a href="electricidad/index.html">Electricidad</a>
+                <a href="plomeria/index.html">Plomería</a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>
+                    © <span id="current-year"></span>
+                    CaperuFix. Todos los derechos reservados.
+                </p>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
