@@ -16,10 +16,10 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- CSS compartido -->
+    <!-- CSS principal y CSS de la página -->
     <link rel="stylesheet" href="../style.css">
 
-    <!-- JavaScript compartido -->
+    <!-- JavaScript principal -->
     <script src="../script.js" defer></script>
 </head>
 
@@ -39,7 +39,8 @@
             </a>
 
             <button class="menu-toggle" id="menu-toggle"
-                aria-label="Abrir menú" aria-expanded="false"
+                aria-label="Abrir menú"
+                aria-expanded="false"
                 aria-controls="nav-menu">
 
                 <span></span>
@@ -132,9 +133,11 @@
 
                 <div class="carpentry-hero-visual">
 
-                    <div class="carpentry-main-image">
-                        <span>Imagen de trabajos de carpintería</span>
-                    </div>
+                    <img
+                        src="../assets/img/carpinteria/hero-carpinteria.jpg"
+                        alt="Carpintero profesional trabajando en un taller de CaperuFix"
+                        class="carpentry-main-image"
+                    >
 
                     <div class="carpentry-floating-card">
 
@@ -189,8 +192,15 @@
 
                     <article class="carpentry-service-card">
 
-                        <div class="carpentry-service-image furniture-image">
+                        <div class="carpentry-service-image">
+
+                            <img
+                                src="../assets/img/carpinteria/muebles.jpg"
+                                alt="Fabricación de muebles de madera"
+                            >
+
                             <span>01</span>
+
                         </div>
 
                         <div class="carpentry-service-content">
@@ -218,8 +228,15 @@
 
                     <article class="carpentry-service-card">
 
-                        <div class="carpentry-service-image installation-image">
+                        <div class="carpentry-service-image">
+
+                            <img
+                                src="../assets/img/carpinteria/instalaciones.jpg"
+                                alt="Instalación profesional de estructuras de madera"
+                            >
+
                             <span>02</span>
+
                         </div>
 
                         <div class="carpentry-service-content">
@@ -247,8 +264,15 @@
 
                     <article class="carpentry-service-card">
 
-                        <div class="carpentry-service-image repair-image">
+                        <div class="carpentry-service-image">
+
+                            <img
+                                src="../assets/img/carpinteria/reparaciones.jpg"
+                                alt="Restauración y reparación de muebles de madera"
+                            >
+
                             <span>03</span>
+
                         </div>
 
                         <div class="carpentry-service-content">
@@ -308,33 +332,72 @@
 
                 <div class="carpentry-gallery-grid">
 
-                    <div class="gallery-item gallery-kitchen">
+                    <!-- COCINAS -->
+
+                    <article class="gallery-item">
+
+                        <img
+                            src="../assets/img/carpinteria/cocina.jpg"
+                            alt="Muebles de cocina modernos de madera"
+                        >
+
                         <div class="gallery-label">
                             <h3>Muebles de cocina</h3>
                             <p>Diseño y fabricación personalizada</p>
                         </div>
-                    </div>
 
-                    <div class="gallery-item gallery-wardrobe">
+                    </article>
+
+
+                    <!-- ARMARIOS -->
+
+                    <article class="gallery-item">
+
+                        <img
+                            src="../assets/img/carpinteria/armarios.jpg"
+                            alt="Armarios y roperos de madera"
+                        >
+
                         <div class="gallery-label">
                             <h3>Armarios</h3>
                             <p>Organización y aprovechamiento del espacio</p>
                         </div>
-                    </div>
 
-                    <div class="gallery-item gallery-doors">
+                    </article>
+
+
+                    <!-- PUERTAS -->
+
+                    <article class="gallery-item">
+
+                        <img
+                            src="../assets/img/carpinteria/puertas.jpg"
+                            alt="Puertas de madera instaladas en un hogar"
+                        >
+
                         <div class="gallery-label">
                             <h3>Puertas de madera</h3>
                             <p>Instalación y acabados</p>
                         </div>
-                    </div>
 
-                    <div class="gallery-item gallery-furniture">
+                    </article>
+
+
+                    <!-- MUEBLES PERSONALIZADOS -->
+
+                    <article class="gallery-item">
+
+                        <img
+                            src="../assets/img/carpinteria/muebles-personalizados.jpg"
+                            alt="Escritorio y muebles personalizados de madera"
+                        >
+
                         <div class="gallery-label">
                             <h3>Muebles personalizados</h3>
                             <p>Diseños adaptados a cada ambiente</p>
                         </div>
-                    </div>
+
+                    </article>
 
                 </div>
 
@@ -692,5 +755,4 @@
     </footer>
 
 </body>
-
 </html>
