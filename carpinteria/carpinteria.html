@@ -1,0 +1,758 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Servicios profesionales de carpintería de CaperuFix. Fabricación, instalación y reparación de muebles de madera.">
+
+    <title>Carpintería | CaperuFix</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS principal y CSS de la página -->
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- JavaScript principal -->
+    <script src="../script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- =================================
+         NAVEGACION
+    ================================== -->
+
+    <header class="header">
+
+        <nav class="navbar container">
+
+            <a href="../index.html" class="logo">
+                <span class="logo-icon">CF</span>
+                <span>Caperu<span class="logo-highlight">Fix</span></span>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+                aria-controls="nav-menu">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+
+                <li>
+                    <a href="../index.html" class="nav-link">
+                        Inicio
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#servicios" class="nav-link active">
+                        Servicios
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#nosotros" class="nav-link">
+                        Nosotros
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contacto" class="nav-link nav-contact">
+                        Contáctanos
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- =================================
+             HERO - CARPINTERIA
+        ================================== -->
+
+        <section class="carpentry-hero" id="inicio">
+
+            <div class="container carpentry-hero-container">
+
+                <div class="carpentry-hero-content">
+
+                    <span class="section-tag">
+                        SERVICIO DE CARPINTERÍA
+                    </span>
+
+                    <h1>
+                        Damos forma a tus ideas
+                        <span>en madera.</span>
+                    </h1>
+
+                    <p>
+                        Creamos, instalamos y reparamos muebles
+                        y estructuras de madera para transformar
+                        los espacios de tu hogar.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#servicios" class="btn btn-primary">
+                            Conoce nuestros servicios
+                        </a>
+
+                        <a href="#galeria" class="btn btn-secondary">
+                            Ver trabajos
+                        </a>
+
+                    </div>
+
+                    <div class="hero-benefits">
+
+                        <span>✓ Trabajos personalizados</span>
+                        <span>✓ Atención profesional</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="carpentry-hero-visual">
+
+                    <img
+                        src="../assets/hero-carpinteria.png"
+                        alt="Carpintero profesional trabajando en un taller de CaperuFix"
+                        class="carpentry-main-image"
+                    >
+
+                    <div class="carpentry-floating-card">
+
+                        <span class="floating-icon">✦</span>
+
+                        <div>
+                            <strong>Calidad en cada detalle</strong>
+                            <p>Trabajos hechos para durar.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             SERVICIOS DE CARPINTERIA
+        ================================== -->
+
+        <section class="carpentry-services section-padding"
+            id="servicios">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-tag">
+                        NUESTROS SERVICIOS
+                    </span>
+
+                    <h2>
+                        Soluciones en
+                        <span>carpintería</span>
+                    </h2>
+
+                    <p>
+                        Ofrecemos diferentes trabajos en madera
+                        para mejorar, renovar y personalizar
+                        los espacios de tu hogar.
+                    </p>
+
+                </div>
+
+
+                <div class="carpentry-services-grid">
+
+                    <!-- SERVICIO 1 -->
+
+                    <article class="carpentry-service-card">
+
+                        <div class="carpentry-service-image">
+
+                            <img
+                                src="../assets/muebles.png"
+                                alt="Fabricación de muebles de madera"
+                            >
+
+                            <span>01</span>
+
+                        </div>
+
+                        <div class="carpentry-service-content">
+
+                            <h3>Fabricación de muebles</h3>
+
+                            <p>
+                                Diseñamos y fabricamos muebles
+                                personalizados según el espacio
+                                y las necesidades de cada cliente.
+                            </p>
+
+                            <ul>
+                                <li>Armarios y roperos</li>
+                                <li>Mesas y escritorios</li>
+                                <li>Estanterías y repisas</li>
+                            </ul>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- SERVICIO 2 -->
+
+                    <article class="carpentry-service-card">
+
+                        <div class="carpentry-service-image">
+
+                            <img
+                                src="../assets/instalaciones.png"
+                                alt="Instalación profesional de estructuras de madera"
+                            >
+
+                            <span>02</span>
+
+                        </div>
+
+                        <div class="carpentry-service-content">
+
+                            <h3>Instalaciones</h3>
+
+                            <p>
+                                Realizamos instalaciones de
+                                estructuras y elementos de madera
+                                para diferentes ambientes.
+                            </p>
+
+                            <ul>
+                                <li>Instalación de puertas</li>
+                                <li>Marcos y ventanas</li>
+                                <li>Muebles de cocina</li>
+                            </ul>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- SERVICIO 3 -->
+
+                    <article class="carpentry-service-card">
+
+                        <div class="carpentry-service-image">
+
+                            <img
+                                src="../assets/reparaciones.png"
+                                alt="Restauración y reparación de muebles de madera"
+                            >
+
+                            <span>03</span>
+
+                        </div>
+
+                        <div class="carpentry-service-content">
+
+                            <h3>Reparación y restauración</h3>
+
+                            <p>
+                                Recuperamos muebles y estructuras
+                                de madera que necesitan reparación
+                                o renovación.
+                            </p>
+
+                            <ul>
+                                <li>Reparación de muebles</li>
+                                <li>Cambio de bisagras</li>
+                                <li>Restauración de superficies</li>
+                            </ul>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             GALERIA DE TRABAJOS
+        ================================== -->
+
+        <section class="carpentry-gallery section-padding"
+            id="galeria">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-tag">
+                        NUESTROS PROYECTOS
+                    </span>
+
+                    <h2>
+                        Trabajos que hablan
+                        <span>por nosotros.</span>
+                    </h2>
+
+                    <p>
+                        Algunos ejemplos de los trabajos
+                        que podemos realizar para tu hogar.
+                    </p>
+
+                </div>
+
+
+                <div class="carpentry-gallery-grid">
+
+                    <!-- COCINAS -->
+
+                    <article class="gallery-item">
+
+                        <img
+                            src="../assets/cocina.png"
+                            alt="Muebles de cocina modernos de madera"
+                        >
+
+                        <div class="gallery-label">
+                            <h3>Muebles de cocina</h3>
+                            <p>Diseño y fabricación personalizada</p>
+                        </div>
+
+                    </article>
+
+
+                    <!-- ARMARIOS -->
+
+                    <article class="gallery-item">
+
+                        <img
+                            src="../assets/armarios.png"
+                            alt="Armarios y roperos de madera"
+                        >
+
+                        <div class="gallery-label">
+                            <h3>Armarios</h3>
+                            <p>Organización y aprovechamiento del espacio</p>
+                        </div>
+
+                    </article>
+
+
+                    <!-- PUERTAS -->
+
+                    <article class="gallery-item">
+
+                        <img
+                            src="../assets/puertas.png"
+                            alt="Puertas de madera instaladas en un hogar"
+                        >
+
+                        <div class="gallery-label">
+                            <h3>Puertas de madera</h3>
+                            <p>Instalación y acabados</p>
+                        </div>
+
+                    </article>
+
+
+                    <!-- MUEBLES PERSONALIZADOS -->
+
+                    <article class="gallery-item">
+
+                        <img
+                            src="../assets/muebles-personalizados.png"
+                            alt="Escritorio y muebles personalizados de madera"
+                        >
+
+                        <div class="gallery-label">
+                            <h3>Muebles personalizados</h3>
+                            <p>Diseños adaptados a cada ambiente</p>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             TABLA DE PRECIOS
+        ================================== -->
+
+        <section class="carpentry-prices section-padding"
+            id="precios">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-tag">
+                        PRECIOS REFERENCIALES
+                    </span>
+
+                    <h2>
+                        Nuestros servicios
+                        <span>y tarifas.</span>
+                    </h2>
+
+                    <p>
+                        Consulta nuestros precios aproximados.
+                        El costo final dependerá del material,
+                        tamaño y complejidad del trabajo.
+                    </p>
+
+                </div>
+
+
+                <div class="carpentry-table-container">
+
+                    <table class="carpentry-table">
+
+                        <thead>
+                            <tr>
+                                <th>Servicio</th>
+                                <th>Descripción</th>
+                                <th>Precio desde</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td>Reparación de muebles</td>
+                                <td>Ajustes y reparaciones básicas</td>
+                                <td>Bs. 80</td>
+                            </tr>
+
+                            <tr>
+                                <td>Instalación de puertas</td>
+                                <td>Instalación de puerta interior</td>
+                                <td>Bs. 150</td>
+                            </tr>
+
+                            <tr>
+                                <td>Instalación de repisas</td>
+                                <td>Colocación de repisas de madera</td>
+                                <td>Bs. 60</td>
+                            </tr>
+
+                            <tr>
+                                <td>Fabricación de escritorio</td>
+                                <td>Diseño y fabricación personalizada</td>
+                                <td>Bs. 450</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                    <p class="table-note">
+                        * Precios ficticios de referencia para
+                        el proyecto académico. No constituyen
+                        cotizaciones comerciales reales.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             MATERIALES
+        ================================== -->
+
+        <section class="carpentry-materials section-padding"
+            id="nosotros">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-tag">
+                        MATERIALES DE TRABAJO
+                    </span>
+
+                    <h2>
+                        Trabajamos con diferentes
+                        <span>materiales.</span>
+                    </h2>
+
+                    <p>
+                        Cada proyecto requiere materiales
+                        adecuados según su uso, diseño y
+                        presupuesto.
+                    </p>
+
+                </div>
+
+
+                <div class="materials-grid">
+
+                    <article class="material-card">
+
+                        <div class="material-icon">🪵</div>
+
+                        <h3>Madera maciza</h3>
+
+                        <p>
+                            Material resistente y natural,
+                            ideal para muebles y estructuras
+                            de larga duración.
+                        </p>
+
+                    </article>
+
+
+                    <article class="material-card">
+
+                        <div class="material-icon">▤</div>
+
+                        <h3>Melamina</h3>
+
+                        <p>
+                            Material versátil utilizado en
+                            armarios, escritorios y muebles
+                            modernos.
+                        </p>
+
+                    </article>
+
+
+                    <article class="material-card">
+
+                        <div class="material-icon">▥</div>
+
+                        <h3>Tableros MDF</h3>
+
+                        <p>
+                            Superficie uniforme que permite
+                            realizar diferentes diseños y
+                            acabados decorativos.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             PROCESO DE TRABAJO
+        ================================== -->
+
+        <section class="carpentry-process section-padding">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-tag">
+                        NUESTRO PROCESO
+                    </span>
+
+                    <h2>
+                        De tu idea al
+                        <span>resultado final.</span>
+                    </h2>
+
+                    <p>
+                        Seguimos un proceso organizado
+                        para desarrollar cada proyecto.
+                    </p>
+
+                </div>
+
+
+                <div class="process-grid">
+
+                    <article class="process-card">
+
+                        <span class="process-number">01</span>
+
+                        <h3>Consulta</h3>
+
+                        <p>
+                            Conocemos tu idea, necesidades
+                            y espacio disponible.
+                        </p>
+
+                    </article>
+
+
+                    <article class="process-card">
+
+                        <span class="process-number">02</span>
+
+                        <h3>Diseño y presupuesto</h3>
+
+                        <p>
+                            Definimos materiales, medidas
+                            y costos del trabajo.
+                        </p>
+
+                    </article>
+
+
+                    <article class="process-card">
+
+                        <span class="process-number">03</span>
+
+                        <h3>Fabricación e instalación</h3>
+
+                        <p>
+                            Realizamos el trabajo y
+                            coordinamos su entrega.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             CONTACTO
+        ================================== -->
+
+        <section class="carpentry-contact section-padding"
+            id="contacto">
+
+            <div class="container">
+
+                <div class="carpentry-contact-content">
+
+                    <span class="section-tag">
+                        HAGAMOS REALIDAD TU PROYECTO
+                    </span>
+
+                    <h2>
+                        ¿Tienes una idea
+                        en mente?
+                    </h2>
+
+                    <p>
+                        Cuéntanos qué necesitas y encuentra
+                        la solución de carpintería adecuada
+                        para tu hogar.
+                    </p>
+
+                    <a href="../index.html#contacto"
+                        class="btn btn-primary">
+                        Contactar con CaperuFix →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =================================
+         FOOTER
+    ================================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+            <div class="footer-brand">
+
+                <a href="../index.html" class="logo footer-logo">
+
+                    <span class="logo-icon">CF</span>
+
+                    <span>Caperu<span class="logo-highlight">Fix</span></span>
+
+                </a>
+
+                <p>
+                    Soluciones profesionales para el cuidado
+                    y mantenimiento de tu hogar.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Navegación</h3>
+
+                <a href="../index.html">Inicio</a>
+                <a href="#servicios">Carpintería</a>
+                <a href="#galeria">Galería</a>
+                <a href="#contacto">Contacto</a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Otros servicios</h3>
+
+                <a href="../index.html#servicios">Electricidad</a>
+                <a href="../index.html#servicios">Plomería</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <p>
+                    © <span id="current-year"></span>
+                    CaperuFix. Todos los derechos reservados.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
